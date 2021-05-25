@@ -1,18 +1,35 @@
 body{
    box-sizing: border-box;
-   background: #4953a7;
+   background: #262f7e;
    color: #e6c71d;
 }
 
 section{
-   border: 10px solid #262f7e;
+   border: 10px solid #202020;
    border-radius: 20px;
+}
+
+h2{
+   margin-right:1rem ;
 }
 
 main{
    display:flex;
    margin-left: 12rem;
+   flex-direction: column;
+   border-spacing: 3rem;
 }
+
+main section{
+   background-color:#181b33;
+   height: 1rem;
+   width: 5rem;
+   padding: 3rem;
+   /* margin-bottom: 1rem; */
+   
+}
+
+
 
 .Leftbar{
    height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -21,7 +38,7 @@ main{
    z-index: 1; /* Stay on top */
    top: 0; /* Stay at the top */
    left: 0;
-   background-color: #262f7e; /* Black */
+   background-color: #2e378b; /* Black */
    overflow-x: hidden; /* Disable horizontal scroll */
    padding-top: 10px;
 }
