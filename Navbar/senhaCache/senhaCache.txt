@@ -1,0 +1,2 @@
+verificando se a senha temporária foi salva no cache
+
