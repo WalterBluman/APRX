@@ -35,17 +35,16 @@
 
 
 img{
-   max-width: 100%; 
-   /* o tamanho da imagem vai ser de no max 100% o tamanho do conteiner */
+   max-width: 100%; /* o tamanho da imagem vai ser de no max 100% o tamanho do conteiner */
    display: block;
 }
 /* responsividade */
 .flex{
-   display: flex;
-   flex-wrap: wrap;
-   /* margin-left: 3rem; */
+   display: flex; /* ativa o flexbox*/
+   flex-wrap: wrap; /*É o que ativa a quebra das imagens*/
 
 }
 .flex > div{
-   flex: 1 1 250px;
+   flex: 1 1 250px; /* flex-shrink */
+   /* quando a imagem chegar em 250px vai quebrar para a próxima linha */
 }
