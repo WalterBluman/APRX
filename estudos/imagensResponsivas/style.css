@@ -1,0 +1,51 @@
+.conteiner{
+   display: flex;
+   align-content: space-between;
+   flex-direction: column;
+   background-color: rgb(46, 46, 46);
+   /* width: 20rem;
+   height: 30rem; */
+}
+
+#links{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   background-color: rgb(77, 77, 77);
+   margin-bottom: 3rem;
+   padding-bottom: 1rem;
+   
+}
+
+#links a{
+   width: 100px;
+   height: 30px;
+   text-decoration: none;
+   color: antiquewhite;
+   background-color: rgb(46, 46, 46);
+   border-radius: 1rem;
+   margin-left: 3rem;
+   margin-top: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+
+
+img{
+   max-width: 100%; 
+   /* o tamanho da imagem vai ser de no max 100% o tamanho do conteiner */
+   display: block;
+}
+/* responsividade */
+.flex{
+   display: flex;
+   flex-wrap: wrap;
+   /* margin-left: 3rem; */
+
+}
+.flex > div{
+   flex: 1 1 250px;
+}
