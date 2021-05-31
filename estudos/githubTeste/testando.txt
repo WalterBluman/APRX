@@ -1,2 +1,2 @@
-usuário 1 u2,u2
+u2
 usuário 2
